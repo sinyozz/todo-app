@@ -1,0 +1,105 @@
+html {box-sizing:border-box;}
+*, *::before, *::after {box-sizing:inherit;}
+
+
+
+body {
+  background-image: linear-gradient;
+  background-color: #e09082;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 1000px;
+}
+
+#container {
+  background: rgb(184,229,255);
+  border-radius: 19px;
+  box-shadow: 5px 5px blue, 10px 10px red, 15px 15px green;
+  margin: 100px auto;
+  width: 60%
+}
+
+
+#mainHeader {
+  background-color: #e09082;
+  background-image: linear-gradient(
+    to right, 
+    #fffdc2,
+    #fffdc2 15%,
+    #d7f0a2 15%,
+    #d7f0a2 85%,
+    #fffdc2 85%
+  );
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  height: 100px;
+  text-align: center;
+  width: 100%
+}
+
+#mainHeader h1 {
+  color: rgb(255, 253, 208);
+  font-family: monospace,Behold;
+  padding: 1px 0;
+  font-size: 80px;
+}
+
+#enterTodo {
+  background: rgb(255, 208, 239);
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  display: flex;
+  height: 50px;
+}
+
+#enterTodo input {
+  background: transparent;
+  border: none;
+  color: lightseagreen;
+  font-size: 40px;
+  height: 50px;
+  margin-left: 30px;
+  padding-left: 95px;
+  width: 100%;
+}
+
+#enterTodo input:focus {
+  outline: none;
+}
+
+#enterTodo #inputDiv{
+  width: 80%;
+}
+
+#enterTodo #addDiv {
+  width: 20%;
+}
+
+#enterTodo i  {
+  cursor: pointer;
+  font-size: 60px;
+  margin-top: 0px;
+  margin-left: -8px;
+  opacity: .3;
+}
+
+
+
+#addDiv #addTodo:focus {
+  outline: none;
+}
+
+#enterTodo i:active {
+  font-size: 39px;
+  transition: font-size .1 ease;
+}
+
+
+.todoListItem {
+  border-bottom: .5px solid rgb(77, 10, 10);
+  height: 75px;
+  list-style: none;
+  width: 95%;
+
+}
+
