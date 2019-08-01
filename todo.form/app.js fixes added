@@ -1,0 +1,23 @@
+
+
+
+
+
+
+
+
+
+export default props => {
+  return (
+    <Provider store={store}>
+      
+       <div id='container'>
+        <header id='mainHeader'>
+          <h1>Lista</h1>
+        </header>
+        <TodoForm />
+      </div>
+    </Provider>
+
+  )
+}
